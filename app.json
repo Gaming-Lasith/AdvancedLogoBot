@@ -1,0 +1,35 @@
+{
+    "name": "STD Logo Bot",
+    "description": "A Simple Logo Maker Bot For Telegram powered with python and pillow.",
+    "repository": "https://github.com/Gaming-Lasith/AdvancedLogoBot",
+    "logo": "https://telegra.ph/file/affbca566d1bfed57c794.png",
+    "keywords": [
+    "python3",
+    "telegram",
+    "logobot",
+    "pyrogram"
+    ],
+    "stack": "container",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Telegram bot token get it from  @BotFather",
+            "required": true
+        },
+        "API_ID": {
+            "description": "API_ID of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "API_HASH of your Telegram Account my.telegram.org/apps",
+            "required": true
+        },
+        "BOT_NAME": {
+            "description": "Your Bot name",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "Your Bot User Name",
+            "required": true
+        }
+    }
+}

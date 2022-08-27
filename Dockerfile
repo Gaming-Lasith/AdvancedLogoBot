@@ -1,9 +1,9 @@
 FROM python:3.9.6
 
-WORKDIR /logo
-COPY . /logo
+WORKDIR /logobot
+COPY . /logobot
  
 RUN pip install -r requirements.txt
  
 ENTRYPOINT ["python"]
-CMD ["-m", "logo"]
+CMD ["-m", "logobot"]

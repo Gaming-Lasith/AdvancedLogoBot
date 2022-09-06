@@ -11,7 +11,7 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import requests
 import shutil
-from stdlogo.utils import LOGOSTD, LOGOSTDBTNS
+from stdlogo.utils import LOGOCREATE, LOGOCREATEBTNS
 
 @stdlogo.on_message(filters.command("anime"))
 async def logomake(_, message: Message):
@@ -56,6 +56,6 @@ async def logomake(_, message: Message):
 [ԌΛϺェƝԌ ㄥΛکェтℋ](http://t.me/GamingLasith)
 ◇───────────────◇
 """,
-                reply_markup=LOGOSTDBTNS
+                reply_markup=LOGOCREATEBTNS
             )
     await m.delete()

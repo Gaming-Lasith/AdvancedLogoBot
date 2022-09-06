@@ -1,5 +1,5 @@
 import re
-from stdlogo import stdlogo
+from logobot import logobot
 from io import BytesIO
 from requests import get
 from pyrogram import filters
@@ -11,9 +11,9 @@ from PIL import Image, ImageDraw, ImageFont
 import random
 import requests
 import shutil
-from stdlogo.utils import LOGOCREATE, LOGOCREATEBTNS
+from logobot.utils import LOGOCREATE, LOGOCREATEBTNS
 
-@stdlogo.on_message(filters.command("anime"))
+@logobot.on_message(filters.command("anime"))
 async def logomake(_, message: Message):
     if len(message.command) != 2:
         return await message.reply_text("Please give a text.\nEx:`/anime Name` ")

@@ -30,6 +30,10 @@
         "BOT_USERNAME": {
             "description": "Your Bot User Name",
             "required": true
+        },
+        "F_SUB_CHANNEL": {
+            "description": "The Telegram channel id you want focus user.",
+            "required": true
         }
     }
 }

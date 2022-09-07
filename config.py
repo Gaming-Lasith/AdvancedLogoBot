@@ -1,10 +1,9 @@
-from os import environ
+import os
 
-class Config(object):
-        API_ID = int(environ.get("API_ID"))
-        API_HASH = environ.get("API_HASH")
-        BOT_TOKEN = environ.get("BOT_TOKEN")
-        BOT_USERNAME = environ.get("BOT_USERNAME")
-        BOT_NAME = environ.get("BOT_NAME")
-        F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
-        STICKER_ID = environ.get("STICKER_ID")
+API_ID = int(os.getenv("API_ID", ""))
+API_HASH = os.getenv("API_HASH")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_USERNAME = os.getenv("BOT_USERNAME")
+BOT_NAME = os.getenv("BOT_NAME")
+F_SUB_CHANNEL = os.getenv("F_SUB_CHANNEL")
+STICKER_ID = os.getenv("STICKER_ID")

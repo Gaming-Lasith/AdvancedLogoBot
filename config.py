@@ -7,3 +7,4 @@ class Config(object):
         BOT_USERNAME = environ.get("BOT_USERNAME")
         BOT_NAME = environ.get("BOT_NAME")
         F_SUB_CHANNEL = environ.get("F_SUB_CHANNEL")
+        STICKER_ID = environ.get("STICKER_ID")

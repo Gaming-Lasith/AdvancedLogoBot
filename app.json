@@ -34,6 +34,10 @@
         "F_SUB_CHANNEL": {
             "description": "The Telegram channel id you want focus user.",
             "required": true
+        },
+        "STICKER_ID": {
+            "description": "Bot start sticker id. Get it from @idstickerbot",
+            "required": true
         }
     }
 }

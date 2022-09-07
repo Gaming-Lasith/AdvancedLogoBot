@@ -43,7 +43,7 @@ BOTUNAME = config.BOT_USERNAME
 STICKID = config.STICKER_ID
 
 STARTTEXT = f"""
-**✨Hello {} 🙋
+**✨Hello 🙋
 💫I am {BOTNAME}**
 
 😈I can create simple logos for you.            
@@ -77,7 +77,7 @@ async def startmsg(_, message):
     await logobot.send_sticker(message.from_user.id, file_id)
     await message.reply_text(
     text=f"""
-**✨Hello {} 🙋
+**✨Hello {message.from_user.mention} 🙋
 💫I am {BOTNAME}**
 
 😈I can create simple logos for you.            
@@ -93,7 +93,7 @@ async def startmsg(_, message):
     await logobot.send_sticker(message.from_user.id, file_id)
     await message.reply_text(
     text=f"""
-**✨Hello {} 🙋**
+**✨Hello {message.from_user.mention} 🙋**
 
 I have some commands.
 Try bellow buttons to 

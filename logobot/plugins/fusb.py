@@ -29,10 +29,12 @@ from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from config import Config
 
+CHANNEL_ID = config.F_SUB_CHANNEL
+
 
 async def ForceSub(bot: Client, event: Message):
     try:
-        await bot.get_chat_member(chat_id=(int(-1001531907575) if -1001531907575.startswith("-100") else -1001531907575), user_id=event.from_user.id)
+        await bot.get_chat_member(chat_id=(int(CHANNEL_ID) if CHANNEL_ID.startswith("-100") else CHANNEL_ID), user_id=event.from_user.id)
     except UserNotParticipant:
         try:
            gh = await bot.send_message(chat_id=event.chat.id,text=f"""

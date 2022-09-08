@@ -114,21 +114,24 @@ REPOPRIVATEBTNS = InlineKeyboardMarkup(
        )
 
 ABOUTTEXT = f"""
-**෴ABOUT BOT෴**
+***෴ABOUT BOT෴**
 
 Bot Name is **{BOTNAME}** &
 Bot UserName is @{BOTUNAME}
+
 
 ||Bot ID - 5409032614
 Bot Created Date - 2022.07.08
 Bot Version - v1.0||
 
+
 Credits 💳
 •[Sเƚԋเʝα▁ƚԃ](https://t.me/sithijatd) ( [for the repo](https://github.com/Sithijadewmina/simple-logo-bot/) )
 •[Single Developers </>](https://t.me/SingleDevelopers) ( [for the api](https://github.com/Single-Developers/API/) )
+•[Rose bot ✨](https://t.me/szrosebot) ( [for the fusb.py](https://github.com/szsupunma/sz-rosebot/blob/master/Rose/plugins/fsub.py) )
+
+
 ✍️ Written with pyrogram & pillow
-
-
 ✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
 """
 

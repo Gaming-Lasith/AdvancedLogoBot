@@ -126,7 +126,7 @@ Credits 💳
 
 
 ✍️ Written with pyrogram & pillow
-✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
 """, 
     reply_markup= InlineKeyboardMarkup(
            [

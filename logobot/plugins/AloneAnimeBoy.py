@@ -45,7 +45,7 @@ async def logomake(_, message: Message):
     await m.edit("📤Uploading...")
     await message.reply_photo(
                 photo=f"aloneanimeboy.jpg",
-                caption=f"""
+                caption= """
 ☘️ Logo Created Successfully✅
 ◇───────────────◇
 ✨ **Requester**:
@@ -53,9 +53,10 @@ async def logomake(_, message: Message):
 🔥 **Created by** :
 [Amazing Logos](http://t.me/AmazingLogosBot)
 ⚡️ **Powered by**   :
-[ԌΛϺェƝԌ ㄥΛکェтℋ](http://t.me/GamingLasith)
+[➷ʟҡ </ɴᴏᴏʙ>](http://t.me/ItsMeLasith)
 ◇───────────────◇
 """,
+
                 reply_markup=LOGOCREATEBTNS
             )
     await m.delete()

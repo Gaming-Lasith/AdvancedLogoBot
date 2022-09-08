@@ -23,19 +23,11 @@ SOFTWARE.
 """
 
     
-import os
-from pyrogram import filters, idle
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
-from requests import get
-import datetime
-import pytz
-from logobot import logobot
-from logobot import LOGGER
-from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
-import random
-import requests
-import shutil
-import config
+import asyncio
+from pyrogram import Client
+from pyrogram.errors import FloodWait, UserNotParticipant
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
+from config import Config
 
 CHANNEL_ID = config.F_SUB_CHANNEL
 

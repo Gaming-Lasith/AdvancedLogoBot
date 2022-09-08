@@ -27,7 +27,7 @@ import asyncio
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from config import Config
+from logobot import logobot
 
 CHANNEL_ID = config.F_SUB_CHANNEL
 

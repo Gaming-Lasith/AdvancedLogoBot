@@ -141,6 +141,6 @@ Credits 💳
 
 
 
-stdlogo.start()
+logobot.start()
 LOGGER.info("RLP Logo Bot is online!")
 idle()

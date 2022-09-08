@@ -33,9 +33,10 @@ BOTUNAME=config.BOT_USERNAME
 STARTTEXT = f"""
 **✨Hello 🙋
 💫I am {BOTNAME}**
-🌺I can create simple logos for you.            
+
+😈I can create simple logos for you.            
 ℹ️Click "About" and "Help And Commands" to know more.
-✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 STARTBTNS = InlineKeyboardMarkup(
@@ -81,7 +82,7 @@ CONTACTTEXT = f"""
 😓Sorry,
 ⚠️No Support Chat for this bot,
 🤗But You can contact [Developer](https://t.me/ImLasith)...
-✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 CONTACTBTNS = InlineKeyboardMarkup(
@@ -99,7 +100,7 @@ REPOPRIVATETEXT = f"""
 😓Sorry,
 ⚠️The Source code of this bot is private,
 🤗But I will publish a simple repo of this bot soon...
-✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 REPOPRIVATEBTNS = InlineKeyboardMarkup(
@@ -132,7 +133,7 @@ Credits 💳
 
 
 ✍️ Written with pyrogram & pillow
-✌️__[ԌΛϺェƝԌ ㄥΛکェтℋ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 ABOUTBTNS = InlineKeyboardMarkup(

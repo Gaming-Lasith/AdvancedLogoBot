@@ -7,7 +7,6 @@ from requests import get
 import datetime
 import pytz
 from logobot import logobot
-from logobot.plugins import *
 from logobot import LOGGER
 from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
 import random

@@ -1,10 +1,19 @@
 
     
-import asyncio
-from pyrogram import Client
-from pyrogram.errors import FloodWait, UserNotParticipant
-from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from config import Config
+import os
+from pyrogram import filters, idle
+from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, InputMediaPhoto
+from requests import get
+import datetime
+import pytz
+from logobot import logobot
+from logobot.plugins import *
+from logobot import LOGGER
+from pyrogram.types.bots_and_keyboards import reply_keyboard_markup
+import random
+import requests
+import shutil
+import config
 
 CHANNEL_ID = Config.F_SUB_CHANNEL
 
@@ -20,7 +29,7 @@ async def ForceSub(bot: Client, event: Message):
 Click join now button and join [➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) channel.**
 ||When you subscribed my channel, This message not display again 🕊||
 """,
-reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🕸 Join Now 🕸", url="https://t.me/ItsMeLasith")]]),disable_web_page_preview=True)
+reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("↗️ Join Now ↗️", url="https://t.me/ItsMeLasith")]]),disable_web_page_preview=True)
            await asyncio.sleep(10)
            await gh.delete()
            return 400

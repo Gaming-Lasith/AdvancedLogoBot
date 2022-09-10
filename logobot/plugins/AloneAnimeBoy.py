@@ -56,6 +56,6 @@ async def logomake(_, message: Message):
 [➷ʟҡ </ɴᴏᴏʙ>](http://t.me/ItsMeLasith)
 ◇───────────────◇
 """,
-                reply_markup=LOGOSTDBTNS
+                reply_markup=LOGOCREATEBTNS
             )
     await m.delete()

@@ -53,7 +53,7 @@ async def logomake(_, message: Message):
 🔥 **Created by** :
 [Amazing Logos](http://t.me/AmazingLogosBot)
 ⚡️ **Powered by** :
-[➷ʟҡ </ɴᴏᴏʙ>](http://t.me/ItsMeLasith)
+[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ItsMeLasith)
 ◇───────────────◇
 """,
                 reply_markup=LOGOCREATEBTNS

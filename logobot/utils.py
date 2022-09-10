@@ -36,7 +36,7 @@ STARTTEXT = f"""
 
 😈I can create simple logos for you.            
 ℹ️Click "About" and "Help And Commands" to know more.
-✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 STARTBTNS = InlineKeyboardMarkup(
@@ -82,7 +82,7 @@ CONTACTTEXT = f"""
 😓Sorry,
 ⚠️No Support Chat for this bot,
 🤗But You can contact [Developer](https://t.me/ImLasith)...
-✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 CONTACTBTNS = InlineKeyboardMarkup(
@@ -100,7 +100,7 @@ REPOPRIVATETEXT = f"""
 😓Sorry,
 ⚠️The Source code of this bot is private,
 🤗But I will publish a simple repo of this bot soon...
-✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 REPOPRIVATEBTNS = InlineKeyboardMarkup(
@@ -133,7 +133,7 @@ Credits 💳
 
 
 ✍️ Written with pyrogram & pillow
-✌️__[➷ʟҡ </ɴᴏᴏʙ>](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
 """
 
 ABOUTBTNS = InlineKeyboardMarkup(
@@ -182,14 +182,14 @@ LOGOCREATE = f"""
 🔥 **Created by** :
 [Amazing Logos](http://t.me/AmazingLogosBot)
 ⚡️ **Powered by**   :
-[ԌΛϺェƝԌ ㄥΛکェтℋ](http://t.me/GamingLasith)
+[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ItsMeLasith)
 ◇───────────────◇
 """
 
 LOGOCREATEBTNS = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="Developer", url=f"http://t.me/GamingLasith") 
+        InlineKeyboardButton(text="Developer", url=f"http://t.me/ImLasith") 
         ],
         [
          InlineKeyboardButton(text="🌚 Share Our Bot 🌝", url=f"tg://msg_url?url=I%20found%20a%20super%20logo%20bot%20use%20now%20@AmazingLogosBot%20%F0%9F%A4%A9") 

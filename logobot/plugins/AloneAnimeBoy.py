@@ -27,13 +27,13 @@ async def logomake(_, message: Message):
     await m.edit("Logo in processing...\n▇▇▇▇▇▇▇▇░░ 80%")
     await m.edit("Logo in processing...\n▇▇▇▇▇▇▇▇▇▇ 100%")
     text = message.text.split(None, 1)[1]
-    img = Image.open("./stdlogo/resources/Anime_AloneBoy.jpg")
+    img = Image.open("./logobot/resources/Anime AloneBoy.jpg")
     draw = ImageDraw.Draw(img)
     image_widthz, image_heightz = img.size
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./stdlogo/resources/Outrun future Bold.otf", 600)
+    font = ImageFont.truetype("./logobot/resources/Outrun future Bold.otf", 600)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size

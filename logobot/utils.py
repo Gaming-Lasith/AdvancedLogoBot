@@ -151,8 +151,7 @@ ABOUTBTNS = InlineKeyboardMarkup(
 LOGOTEXT = """෴Logo Commands෴
 This is my logo making commands🔥
 Try them and Get a fun.
-•/logo {text} or /logohq {text} - Random Logo
-•/wall {text} - Find Wallpaper for text
+•/logo {text} - Random Logo
 •/write {text} - Wite a text in page
 •/slmask {text} - Mask Logo.
 •/anime {text} - Alone Anime Boy.

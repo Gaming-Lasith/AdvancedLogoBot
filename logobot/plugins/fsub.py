@@ -1,12 +1,13 @@
 
     
 import asyncio
+from logobot import logobot
 from pyrogram import Client
 from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
-from logobot import logobot
+import config
 
-CHANNEL_ID = -1001531907575
+CHANNEL_ID = config.F_SUB_CHANNEL
 
 
 async def ForceSub(bot: Client, event: Message):

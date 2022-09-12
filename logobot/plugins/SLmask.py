@@ -33,14 +33,14 @@ async def logomake(_, message: Message):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./logobot/resources/Flashing.otf", 600)
+    font = ImageFont.truetype("./logobot/resources/Flashing.otf", 400)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
-    draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(0, 0, 0))
+    draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="black", stroke_width=8, stroke_fill="red")
+    draw.text((x, y), text, font=font, fill="white", stroke_width=0, stroke_fill="red")
     img.save("slmask.jpg")
     await m.edit("📤Uploading...")
     await message.reply_photo(

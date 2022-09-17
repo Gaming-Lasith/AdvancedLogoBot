@@ -36,13 +36,13 @@ STARTTEXT = f"""
 
 😈I can create simple logos for you.            
 ℹ️Click "About" and "Help And Commands" to know more.
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """
 
 STARTBTNS = InlineKeyboardMarkup(
             [       
                 [
-                    InlineKeyboardButton("UPDATES", url="https://t.me/ItsMeLasith"),
+                    InlineKeyboardButton("UPDATES", url="https://t.me/ImLasith"),
                     InlineKeyboardButton("SUPPORT", callback_data="contact"),
                 ],
                 [
@@ -52,7 +52,7 @@ STARTBTNS = InlineKeyboardMarkup(
                     InlineKeyboardButton("☘️Help And Commands☘️", callback_data="helpmenu")
                 ],
                 [ 
-                    InlineKeyboardButton("Developer", url="https://t.me/GamingLasith")           
+                    InlineKeyboardButton("Developer", url="https://t.me/Lasith4")           
                 ]
             ]
         )
@@ -81,14 +81,14 @@ HELPBTNS = InlineKeyboardMarkup(
 CONTACTTEXT = f"""
 😓Sorry,
 ⚠️No Support Chat for this bot,
-🤗But You can contact [Developer](https://t.me/ImLasith)...
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+🤗But You can contact [Developer](https://t.me/Lasith4)...
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """
 
 CONTACTBTNS = InlineKeyboardMarkup(
            [
              [
-               InlineKeyboardButton("Developer", url="https://t.me/ImLasith"),
+               InlineKeyboardButton("Developer", url="https://t.me/Lasith4"),
              ],
              [
                InlineKeyboardButton("🔙Back", callback_data="helpmenu")
@@ -100,13 +100,13 @@ REPOPRIVATETEXT = f"""
 😓Sorry,
 ⚠️The Source code of this bot is private,
 🤗But I will publish a simple repo of this bot soon...
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """
 
 REPOPRIVATEBTNS = InlineKeyboardMarkup(
            [
              [
-               InlineKeyboardButton("Developer", url="https://t.me/ImLasith"),
+               InlineKeyboardButton("Developer", url="https://t.me/Lasith4"),
              ],
              [
                InlineKeyboardButton("🔙Back", callback_data="helpmenu")
@@ -133,7 +133,7 @@ Credits 💳
 
 
 ✍️ Written with pyrogram & pillow
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """
 
 ABOUTBTNS = InlineKeyboardMarkup(
@@ -181,14 +181,14 @@ LOGOCREATE = f"""
 🔥 **Created by** :
 [Amazing Logos](http://t.me/AmazingLogosBot)
 ⚡️ **Powered by**   :
-[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ItsMeLasith)
+[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ImLasith)
 ◇───────────────◇
 """
 
 LOGOCREATEBTNS = InlineKeyboardMarkup(
       [
         [
-        InlineKeyboardButton(text="Developer", url=f"http://t.me/ImLasith") 
+        InlineKeyboardButton(text="Developer", url=f"http://t.me/Lasith4") 
         ],
         [
          InlineKeyboardButton(text="🌚 Share Our Bot 🌝", url=f"tg://msg_url?url=I%20found%20a%20super%20logo%20bot%20use%20now%20@AmazingLogosBot%20%F0%9F%A4%A9") 

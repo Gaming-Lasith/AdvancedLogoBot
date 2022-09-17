@@ -64,7 +64,7 @@ STARTBTNS = InlineKeyboardMarkup(
                     InlineKeyboardButton("☘️Help And Commands☘️", callback_data="helpmenu")
                 ],
                 [ 
-                    InlineKeyboardButton("Developer", url="https://t.me/ImLasith")           
+                    InlineKeyboardButton("Developer", url="https://t.me/Lasith4")           
                 ]
             ]
         )
@@ -82,7 +82,7 @@ async def startmsg(_, message):
 
 😈I can create simple logos for you.            
 ℹ️Click "About" and "Help And Commands" to know more.
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """, 
     reply_markup=STARTBTNS
   )
@@ -126,7 +126,7 @@ Credits 💳
 
 
 ✍️ Written with pyrogram & pillow
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """, 
     reply_markup= InlineKeyboardMarkup(
            [

@@ -48,13 +48,13 @@ STARTTEXT = f"""
 
 😈I can create simple logos for you.            
 ℹ️Click "About" and "Help And Commands" to know more.
-✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ItsMeLasith) All Right Received©__
+✌️__[➷ʟҡ #ɴᴏᴏʙ](https://t.me/ImLasith) All Right Received©__
 """
 
 STARTBTNS = InlineKeyboardMarkup(
             [       
                 [
-                    InlineKeyboardButton("UPDATES", url="https://t.me/ItsMeLasith"),
+                    InlineKeyboardButton("UPDATES", url="https://t.me/ImLasith"),
                     InlineKeyboardButton("SUPPORT", callback_data="contact")
                 ],
                 [

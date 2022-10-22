@@ -33,14 +33,14 @@ async def logomake(_, message: Message):
     pointsize = 500
     fillcolor = "gold"
     shadowcolor = "blue"
-    font = ImageFont.truetype("./logobot/resources/SpacePatrol.ttf", 400)
+    font = ImageFont.truetype("./logobot/resources/SpacePatrol.ttf", 300)
     w, h = draw.textsize(text, font=font)
     h += int(h*0.21)
     image_width, image_height = img.size
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill=(255, 255, 255, 255), stroke_width=8, stoke_fill='#FFFFFF')
+    draw.text((x, y), text, font=font, fill=(255, 255, 255, 255), stroke_width=8, stoke_fill='#000000')
     img.save("hackerbike.jpg")
     await m.edit("📤Uploading...")
     await message.reply_photo(

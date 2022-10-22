@@ -12,16 +12,7 @@ import shutil
 import config 
 from logobot.utils import LOGOCREATE, LOGOCREATEBTNS
 
-repmark = InlineKeyboardMarkup(
-      [
-        [
-        InlineKeyboardButton(text="💡About💡", url=f"http://t.me/{BOTUSERNAME}") 
-        ],
-        [
-         InlineKeyboardButton(text="⭕Subscribe⭕", url=f"https://youtube.com/channel/UCFH_E0cu7U8GMjEJGnSvYjA") 
-        ]
-      ]      
-    )
+repmark = LOGOCREATEBTNS
 
 def nospace(s):
 
@@ -31,11 +22,14 @@ def nospace(s):
 @logobot.on_message(filters.command("logo"))
 async def make_logo(_, message):
     imgcaption = f"""
-☘️** Logo Created Successfully**✅
+✅ Logo Created Successfully ✅
 ◇───────────────◇
-🔥 **Created by** : {BOTNAME}
-🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : **@ItsMeSithija**
+✨ **Requester** :
+{message.from_user.mention}
+🔥 **Created by** :
+[Amazing Logos](http://t.me/AmazingLogosBot)
+⚡️ **Powered by** :
+[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ImLasith)
 ◇───────────────◇
 """
     if len(message.command) < 2:
@@ -78,11 +72,14 @@ logomake = ["https://telegra.ph/file/7cd465d6609ea17141747.jpg",
 @logobot.on_message(filters.command("write"))
 async def write_logo(_, message):
     imgcaption = f"""
-☘️** Logo Created Successfully**✅
+✅ Logo Created Successfully ✅
 ◇───────────────◇
-🔥 **Created by** : {BOTNAME}
-🌷 **Requestor** : {message.from_user.mention}
-⚡️ **Powered By **  : **@ItsMeSithija**
+✨ **Requester** :
+{message.from_user.mention}
+🔥 **Created by** :
+[Amazing Logos](http://t.me/AmazingLogosBot)
+⚡️ **Powered by** :
+[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ImLasith)
 ◇───────────────◇
 """
     if len(message.command) < 2:

@@ -152,9 +152,10 @@ LOGOTEXT = """෴Logo Commands෴
 This is my logo making commands🔥
 Try them and Get a fun.
 •/logo {text} - Random Logo
-•/write {text} - Wite a text in page
+•/write {text} - Write a text in page
 •/slmask {text} - Mask Logo.
 •/anime {text} - Alone Anime Boy.
+•/hacker {text} - Hacker Bike Logo
 More logos update in soon. """
 
 LOGOBTNS = InlineKeyboardMarkup(

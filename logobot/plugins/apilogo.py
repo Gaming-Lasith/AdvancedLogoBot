@@ -1,5 +1,5 @@
 import re
-from logobot import stdlogo
+from logobot import logobot
 from io import BytesIO
 import requests
 from pyrogram import filters

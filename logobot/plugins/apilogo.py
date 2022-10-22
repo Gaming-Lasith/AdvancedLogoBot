@@ -1,5 +1,5 @@
 import re
-from logobot import logobot
+from logobot import stdlogo
 from io import BytesIO
 import requests
 from pyrogram import filters
@@ -10,9 +10,20 @@ import random
 import requests
 import shutil
 import config 
-from logobot.utils import LOGOCREATE, LOGOCREATEBTNS
 
-repmark = LOGOCREATEBTNS
+BOTNAME=config.BOT_NAME
+BOTUSERNAME=config.BOT_USERNAME
+
+repmark = InlineKeyboardMarkup(
+      [
+        [
+        InlineKeyboardButton(text="Developer", url=f"http://t.me/Lasith4") 
+        ],
+        [
+         InlineKeyboardButton(text="🌚 Share Our Bot 🌝", url=f"tg://msg_url?url=I%20found%20a%20super%20logo%20bot%20use%20now%20@AmazingLogosBot%20%F0%9F%A4%A9") 
+        ]
+      ]      
+  )
 
 def nospace(s):
 
@@ -33,28 +44,18 @@ async def make_logo(_, message):
 ◇───────────────◇
 """
     if len(message.command) < 2:
-            return await message.reply_text("Please give a text")
+            return await message.reply_text("Please give a text to make logo")
     m = await message.reply_text("📸 Creating..")
     name = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
     api = requests.get(f"https://single-developers.up.railway.app/logo?name={name}")
     await m.edit("📤 Uploading ...")
-    await stdlogo.send_chat_action(message.chat.id, "upload_photo")
+    await logobot.send_chat_action(message.chat.id, "upload_photo")
     img = Image.open(BytesIO(api.content))
-    logoname = "stdlogo.png"
+    logoname = "logo.png"
     img.save(logoname, "png")
     await message.reply_photo(photo = logoname,
-                              caption= f"""
-✅ Logo Created Successfully ✅
-◇───────────────◇
-✨ **Requester** :
-{message.from_user.mention}
-🔥 **Created by** :
-[Amazing Logos](http://t.me/AmazingLogosBot)
-⚡️ **Powered by** :
-[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ImLasith)
-◇───────────────◇
-""",
-                              reply_markup=LOGOCREATEBTNS)
+                              caption=imgcaption,
+                              reply_markup = repmark)
     await m.delete()
     if os.path.exists(logoname):
             os.remove(logoname)
@@ -83,28 +84,18 @@ async def write_logo(_, message):
 ◇───────────────◇
 """
     if len(message.command) < 2:
-            return await message.reply_text("Please give a text")
+            return await message.reply_text("Please give a text to make logo")
     m = await message.reply_text("✍️ writing..")
     name = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
     api = requests.get(f"https://single-developers.up.railway.app/write={name}")
     await m.edit("📤 Uploading ...")
-    await stdlogo.send_chat_action(message.chat.id, "upload_photo")
+    await logobot.send_chat_action(message.chat.id, "upload_photo")
     img = Image.open(BytesIO(api.content))
-    logoname = "stdwrite.png"
+    logoname = "write.png"
     img.save(logoname, "png")
     await message.reply_photo(photo = logoname,
-                              caption= f"""
-✅ Logo Created Successfully ✅
-◇───────────────◇
-✨ **Requester** :
-{message.from_user.mention}
-🔥 **Created by** :
-[Amazing Logos](http://t.me/AmazingLogosBot)
-⚡️ **Powered by** :
-[➷ʟҡ #ɴᴏᴏʙ](http://t.me/ImLasith)
-◇───────────────◇
-""",
-                              reply_markup=LOGOCREATEBTNS)
+                              caption=imgcaption,
+                              reply_markup = repmark)
     await m.delete()
     if os.path.exists(logoname):
             os.remove(logoname)

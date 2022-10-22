@@ -40,7 +40,7 @@ async def logomake(_, message: Message):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill='#FFFFFF', stroke_width=8, stoke_fill='#000000')
+    draw.text((x, y), text, font=font, fill="white", stroke_width=8, stoke_fill="black")
     img.save("hackerbike.jpg")
     await m.edit("📤Uploading...")
     await message.reply_photo(

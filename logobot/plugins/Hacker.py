@@ -13,10 +13,10 @@ import requests
 import shutil
 from logobot.utils import LOGOCREATE, LOGOCREATEBTNS
 
-@logobot.on_message(filters.command("slmask"))
+@logobot.on_message(filters.command("hacker"))
 async def logomake(_, message: Message):
     if len(message.command) != 2:
-        return await message.reply_text("Please give a text.\nEx:`/slmask Name` ")
+        return await message.reply_text("Please give a text.\nEx:`/hacker Name` ")
     else:
         pass
     m = await message.reply('Designing your logo...wait!')

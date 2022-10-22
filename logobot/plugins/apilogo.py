@@ -49,7 +49,6 @@ async def make_logo(_, message):
     name = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
     api = requests.get(f"https://single-developers.up.railway.app/logo?name={name}")
     await m.edit("📤 Uploading ...")
-    await logobot.send_chat_action(message.chat.id, "upload_photo")
     img = Image.open(BytesIO(api.content))
     logoname = "logo.png"
     img.save(logoname, "png")
@@ -89,7 +88,6 @@ async def write_logo(_, message):
     name = message.text.split(None, 1)[1] if len(message.command) < 3 else message.text.split(None, 1)[1].replace(" ", "%20")
     api = requests.get(f"https://single-developers.up.railway.app/write={name}")
     await m.edit("📤 Uploading ...")
-    await logobot.send_chat_action(message.chat.id, "upload_photo")
     img = Image.open(BytesIO(api.content))
     logoname = "write.png"
     img.save(logoname, "png")

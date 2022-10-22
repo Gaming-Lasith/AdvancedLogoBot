@@ -40,7 +40,7 @@ async def logomake(_, message: Message):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(0, 0, 0))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill="black", stroke_width=8, stroke_fill="red")
+    draw.text((x, y), text, font=font, fill=(255, 0, 0, 0), stroke_width=8, stoke_fill='#FF0000')
     img.save("aloneanimeboy.jpg")
     await m.edit("📤Uploading...")
     await message.reply_photo(

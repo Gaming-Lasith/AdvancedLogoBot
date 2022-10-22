@@ -40,7 +40,7 @@ async def logomake(_, message: Message):
     draw.text(((image_widthz-w)/2, (image_heightz-h)/2), text, font=font, fill=(255, 255, 255))
     x = (image_widthz-w)/2
     y= ((image_heightz-h)/2+6)
-    draw.text((x, y), text, font=font, fill=(255, 255, 255, 255), stroke_width=0, stoke_fill='#000000')
+    draw.text((x, y), text, font=font, fill=(255, 255, 255, 255), stroke_width=0, stroke_fill='#000000')
     img.save("slmask.jpg")
     await m.edit("📤Uploading...")
     await message.reply_photo(

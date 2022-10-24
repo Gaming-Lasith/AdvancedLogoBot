@@ -128,8 +128,6 @@ Bot Version - v1.0||
 
 Credits 💳
 •[Sเƚԋเʝα▁ƚԃ](https://t.me/sithijatd) ( [for the repo](https://github.com/Sithijadewmina/simple-logo-bot/) )
-•[Single Developers </>](https://t.me/SingleDevelopers) ( [for the api](https://github.com/Single-Developers/API/) )
-•[Rose bot ✨](https://t.me/szrosebot) ( [for the fusb.py](https://github.com/szsupunma/sz-rosebot/blob/master/Rose/plugins/fsub.py) )
 
 
 ✍️ Written with pyrogram & pillow
@@ -148,15 +146,17 @@ ABOUTBTNS = InlineKeyboardMarkup(
        )
 
 
-LOGOTEXT = """෴Logo Commands෴
-This is my logo making commands🔥
-Try them and Get a fun.
-•/logo {text} - Random Logo
-•/write {text} - Write a text in page
+LOGOTEXT = """
+**෴Logo Commands෴**
+
+__Here Logo making cmds 🔥__
+__Try them and Get a fun.__
+
 •/slmask {text} - Mask Logo.
 •/anime {text} - Alone Anime Boy.
 •/hacker {text} - Hacker Bike Logo
-More logos update in soon. """
+
+```More logos update in soon.``` """
 
 LOGOBTNS = InlineKeyboardMarkup(
            [[
@@ -164,7 +164,9 @@ LOGOBTNS = InlineKeyboardMarkup(
            ]]
          )
 
-BOTTEXT = """ ෴Bot commands෴
+BOTTEXT = """
+**෴Bot commands෴**
+
 •/start - Start bot.
 •/help - Get Help.
 •/about - About bot.
